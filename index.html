@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations Graduate!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="confetti-container" id="confetti"></div>
+    
+    <div class="container">
+        <header>
+            <h1 class="grad-title">
+                <p>✞✞✞ ከእግዚአብሔር ቤት መረቅናችሁ! (መዝ 118፡26)</p>
+                We are blessed by the house of God!(Psalms 118:26)
+            </h1>
+            <h2>Congratulations, <span id="graduate-name"><b>Engineer Tamagn Zewdu</b></span>!</h2>
+            <p class="subtitle">Class of <span id="grad-year">2025</span></p>
+            <div class="grad-cap-animation">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+        </header>
+
+        <section class="message-section">
+            <div class="message-box">
+                <h2>We're So Proud of You!</h2>
+                <p id="personal-message">
+                    Your hard work, dedication, and perseverance have paid off. This is just the beginning of an amazing journey. The future holds endless possibilities for someone as talented and determined as you.
+                </p>
+                <p>I wanted to thank you for all of your support and for suggesting the username: <b>@abeloper</b> too! I really like it, and it's inspired me to become a better developer. Your support means a lot to me, and I'm excited to continue growing in this field!</p>
+                <p>✞ Thank God for everything!</p>
+                <p>✞ ስለሁሉም ነገር እግዚአብሔር ይመስገን!</p>
+                <button id="surprise-btn" class="btn">Click for a Surprise!</button>
+            </div>
+            <div class="graduates-photo">
+                <img src="images/photo_2025-05-25_14-26-43.jpg" alt="Graduate photo">
+            </div>
+        </section>
+
+        <section class="milestones">
+            <h2>Your Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>First Day</h3>
+                        <p>Do you remember the first time we met at our mother Gibi Gubae for Nedyan laundry("Nedayan lbs ateba") ? It was a good day.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Challenges Overcome</h3>
+                        <p>All those late nights studying, all lab nights the tough exams you aced, the obstacles you conquered.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Friends Made</h3>
+                        <p>The lifelong friendships formed through shared experiences.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Today - 14/10/2017 EC!</h3>
+                        <p>All your efforts have led to this proud moment. Celebrate your amazing achievement!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="photo-gallery" id="gallery">
+            <h2>Memorable Moments</h2>
+            <div class="gallery-container">
+                <!-- Photos will be added via JavaScript -->
+            </div>
+            <div class="gallery-controls">
+                <button id="prev-btn" class="gallery-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-btn" class="gallery-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section class="future-wishes">
+            <h2>Your Bright Future</h2>
+            <div class="wishes-container">
+                <div class="wish-card">
+                    <i class="fas fa-plus"></i>
+                    <p>May God follow you in all your ways</p>
+                </div>
+                <div class="wish-card">
+                    <i class="fas fa-star"></i>
+                    <p>May success follow you in all your endeavors</p>
+                </div>
+                <div class="wish-card">
+                    <i class="fas fa-heart"></i>
+                    <p>May you find happiness in everything you do</p>
+                </div>
+                <div class="wish-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <p>May your creativity and intelligence continue to shine</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Created with <i class="fas fa-heart"></i> as a gift for your graduation</p>
+            <p class="signature">Abeje Goshu (@abeloper)</p>
+            <div class="social-share">
+                <button id="share-btn" class="btn">Share This Celebration <i class="fas fa-share-alt"></i></button>
+            </div>
+        </footer>
+    </div>
+
+    <audio id="celebration-sound" src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
